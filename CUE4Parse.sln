@@ -1,11 +1,18 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.30428.66
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32210.238
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CUE4Parse", "CUE4Parse\CUE4Parse.csproj", "{AA16738F-6082-4410-868B-FC59A0363E8F}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CUE4Parse-Conversion", "CUE4Parse-Conversion\CUE4Parse-Conversion.csproj", "{EB602A68-2268-4D51-AC75-41E8EDEC95E5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{E76E7552-08DA-45C6-A96C-011AE11F811E}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+		Directory.Build.props = Directory.Build.props
+		Directory.Build.targets = Directory.Build.targets
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,6 +24,10 @@ Global
 		{AA16738F-6082-4410-868B-FC59A0363E8F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AA16738F-6082-4410-868B-FC59A0363E8F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AA16738F-6082-4410-868B-FC59A0363E8F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A38EFDF9-6F67-4FF2-8039-DDC946C8A40D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A38EFDF9-6F67-4FF2-8039-DDC946C8A40D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A38EFDF9-6F67-4FF2-8039-DDC946C8A40D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A38EFDF9-6F67-4FF2-8039-DDC946C8A40D}.Release|Any CPU.Build.0 = Release|Any CPU
 		{F77A7A3F-D2D6-44FC-B837-C794016B36A7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{F77A7A3F-D2D6-44FC-B837-C794016B36A7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F77A7A3F-D2D6-44FC-B837-C794016B36A7}.Release|Any CPU.ActiveCfg = Release|Any CPU

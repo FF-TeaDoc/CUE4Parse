@@ -1,0 +1,10 @@
+<Project>
+	<PropertyGroup>
+		<GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+		<Description>C# Parser for Unreal Engine packages &amp; assets</Description>
+		<PackageProjectUrl>https://github.com/BanjoByTheBay/CUE4Parse</PackageProjectUrl>
+		<RepositoryUrl>https://github.com/BanjoByTheBay/CUE4Parse.git</RepositoryUrl>
+		<RepositoryType>git</RepositoryType>
+		<VersionSuffix>unofficial</VersionSuffix>
+	</PropertyGroup>
+</Project>

@@ -1,4 +1,4 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
     <LangVersion>preview</LangVersion>
     <Nullable>enable</Nullable>
@@ -13,6 +13,10 @@
     <RepositoryUrl>https://github.com/FabianFG/CUE4Parse.git</RepositoryUrl>
     <RepositoryType>git</RepositoryType>
     <Version>1.1.1</Version>
+  </PropertyGroup>
+
+  <PropertyGroup>
+    <VersionPrefix>1.0.9</VersionPrefix>
   </PropertyGroup>
 
   <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">

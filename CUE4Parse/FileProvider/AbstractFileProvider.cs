@@ -791,9 +791,16 @@ namespace CUE4Parse.FileProvider
         }
 
         [MethodImpl(MethodImplOptions.AggressiveInlining)]
-        public virtual async Task<T> LoadObjectAsync<T>(string? objectPath) where T : UObject =>
-            await LoadObjectAsync(objectPath) as T ??
-            throw new ParserException("Loaded object but it was of wrong type");
+        public virtual async Task<T> LoadObjectAsync<T>(string? objectPath) where T : UObject
+        {
+            var obj = await LoadObjectAsync(objectPath);
+            if (obj is T objt) return objt;
+            var ex = new ParserException("Loaded object but it was of wrong type");
+            ex.Data.Add("ExpectedType", typeof(T));
+            ex.Data.Add("ActualType", obj.GetType());
+            ex.Data.Add("ObjectPath", objectPath);
+            throw ex;
+        }
 
         [MethodImpl(MethodImplOptions.AggressiveInlining)]
         public virtual async Task<T?> TryLoadObjectAsync<T>(string? objectPath) where T : UObject =>
