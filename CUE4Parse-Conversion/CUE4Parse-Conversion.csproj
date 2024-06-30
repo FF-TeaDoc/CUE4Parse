@@ -5,6 +5,8 @@
     <LangVersion>default</LangVersion>
     <Nullable>enable</Nullable>
     <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <TargetFrameworks>net8.0</TargetFrameworks>
+    <TargetFramework>net6.0</TargetFramework>
     <TargetFramework>net8.0</TargetFramework>
     <TargetFrameworks>net6.0</TargetFrameworks>
     <TargetFramework>net6.0</TargetFramework>
@@ -14,6 +16,12 @@
     <PackageProjectUrl>https://github.com/FabianFG/CUE4Parse</PackageProjectUrl>
     <RepositoryUrl>https://github.com/FabianFG/CUE4Parse.git</RepositoryUrl>
     <RepositoryType>git</RepositoryType>
+  </PropertyGroup>
+
+  <PropertyGroup>
+    <VersionPrefix>1.0.9</VersionPrefix>
+    <Version>1.0.9</Version>
+    <Version>1.1.0</Version>
     <Version>1.1.1</Version>
   </PropertyGroup>
 
